@@ -1,6 +1,6 @@
 ---
 slug: data_as_a_product
-title: Data As A Product
+title: Data as a Product is a game changer
 authors: [dalmas]
 tags: [datagov, aws, dataeng]
 ---
@@ -8,12 +8,11 @@ tags: [datagov, aws, dataeng]
 
 When starting a business or organization, you’re likely to begin with a single group of people, not yet split into departments. This founding team—often consisting of the CEO, secretary, and a few directors (especially in Uganda)—takes on multiple roles as the company begins to grow.
 
-<!-- truncate -->
-watch the video here 
-
-https://www.youtube.com/watch?v=2ArI1VHGVos&ab_channel=DaliCodes
-
 As that growth continues, departments and business units naturally form. Along with that comes the tendency for **data collection, storage, and usage to become siloed** within these units. This fragmentation makes it harder to access data across departments, slows down strategic decision-making, and introduces issues around data quality and transparency.
+<!-- truncate -->
+
+watch the video here 
+<iframe src="https://www.youtube.com/embed/2ArI1VHGVos" frameborder="0" allowfullscreen="true" width="100%" height="400"></iframe>
 
 ## The Case for a Centralized Source of Truth
 
@@ -100,44 +99,44 @@ With greater access comes a broader attack surface. Strong access controls, encr
 
 Amazon Web Services (AWS) offers a comprehensive set of tools that support the full data product lifecycle—from ingestion to access and governance.
 
-### 1. **Data Ingestion & Collection**
+1. **Data Ingestion & Collection**
 
 - **Amazon Kinesis** – Real-time streaming for logs, clickstreams, and IoT data.
 - **AWS Glue** – Serverless ETL for discovering and preparing data.
 - **Amazon MSK** – Managed Kafka for high-throughput data streaming.
 
-### 2. **Data Storage**
+2. **Data Storage**
 
 - **Amazon S3** – Scalable object storage for data lakes.
 - **Amazon Redshift** – Fully managed data warehouse.
 - **Amazon RDS & Aurora** – Managed relational databases.
 - **AWS Lake Formation** – Simplifies the creation of secure data lakes.
 
-### 3. **Data Processing & Transformation**
+3. **Data Processing & Transformation**
 
 - **AWS Glue Studio** – Visual ETL workflows.
 - **Amazon EMR** – Big data processing with Spark, Hive, Presto.
 - **AWS Step Functions** – Orchestrates data workflows.
 
-### 4. **Metadata, Cataloging & Governance**
+4. **Metadata, Cataloging & Governance**
 
 - **AWS Glue Data Catalog** – Central metadata repository.
 - **AWS Lake Formation** – Access control and data policy enforcement.
 
-### 5. **Access & Delivery**
+5. **Access & Delivery**
 
 - **Amazon QuickSight** – BI dashboards and reports.
 - **Amazon API Gateway** – Exposes data products as APIs.
 - **Amazon Athena** – SQL queries over S3 data—no ETL required.
 
-### 6. **Security, Compliance & Monitoring**
+6. **Security, Compliance & Monitoring**
 
 - **AWS IAM** – Identity and access management.
 - **AWS CloudTrail & AWS Config** – Auditing and compliance.
 - **AWS Macie** – PII detection and privacy compliance.
 - **AWS KMS** – Data encryption at rest and in transit.
 
-### 7. **Machine Learning-Driven Data Products**
+7. **Machine Learning-Driven Data Products**
 
 - **Amazon SageMaker** – Build and deploy ML models.
 - **Amazon Forecast** – Time series forecasting.
