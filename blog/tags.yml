@@ -17,3 +17,18 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+datagov:
+  label: Data Governance
+  permalink: /datagov
+  description: Blogs pertaining governance of data
+
+aws:
+  label: Amazon Web Services (aws)
+  permalink: /aws
+  description: Blogs pertaining amazon web services
+
+dataeng:
+  label: Data Engineering
+  permalink: /dataeng
+  description: Blogs pertaining data engineering
